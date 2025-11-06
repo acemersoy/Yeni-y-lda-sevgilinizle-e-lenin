@@ -1,0 +1,27 @@
+[
+  { "day": 1, "type": "text", "content": "Bugün bir LeetCode easy çöz!" },
+  { "day": 2, "type": "image", "content": "/rewards/dog.jpg" },
+  { "day": 3, "type": "terminal", "content": "Bugünün komutu: ls -la" },
+  { "day": 4, "type": "game", "content": "mini-snake" },
+  { "day": 5, "type": "text", "content": "Bir yeni programlama dili öğrenmeye başla!" },
+  { "day": 6, "type": "image", "content": "/rewards/cat.jpg" },
+  { "day": 7, "type": "terminal", "content": "Bugünün komutu: git status" },
+  { "day": 8, "type": "text", "content": "Bir GitHub repository oluştur ve ilk commit'i yap!" },
+  { "day": 9, "type": "game", "content": "mini-tic-tac-toe" },
+  { "day": 10, "type": "text", "content": "Bugün bir teknik blog yazısı oku!" },
+  { "day": 11, "type": "image", "content": "/rewards/christmas.jpg" },
+  { "day": 12, "type": "terminal", "content": "Bugünün komutu: npm install" },
+  { "day": 13, "type": "text", "content": "Bir yeni framework veya kütüphane keşfet!" },
+  { "day": 14, "type": "game", "content": "mini-memory" },
+  { "day": 15, "type": "text", "content": "Bir coding challenge tamamla!" },
+  { "day": 16, "type": "image", "content": "/rewards/snowman.jpg" },
+  { "day": 17, "type": "terminal", "content": "Bugünün komutu: docker ps" },
+  { "day": 18, "type": "text", "content": "Bir open source projeye katkıda bulun!" },
+  { "day": 19, "type": "game", "content": "mini-snake" },
+  { "day": 20, "type": "text", "content": "Bugün bir algoritma problemi çöz!" },
+  { "day": 21, "type": "image", "content": "/rewards/gift.jpg" },
+  { "day": 22, "type": "terminal", "content": "Bugünün komutu: npm run build" },
+  { "day": 23, "type": "text", "content": "Bir yeni proje başlat ve ilk adımları at!" },
+  { "day": 24, "type": "text", "content": "🎉 Tebrikler! Advent Calendar'ı tamamladın! 🎉" }
+]
+

@@ -1,0 +1,27 @@
+export const doorsData = [
+  { "day": 1, "type": "text", "content": "Bugün bir LeetCode easy çöz!" },
+  { "day": 2, "type": "text", "content": "Bir yeni npm paketi keşfet ve projene ekle!" },
+  { "day": 3, "type": "terminal", "content": "Bugünün komutu: ls -la" },
+  { "day": 4, "type": "game", "content": "mini-snake" },
+  { "day": 5, "type": "text", "content": "Bir yeni programlama dili öğrenmeye başla!" },
+  { "day": 6, "type": "text", "content": "Bir README.md dosyası yaz ve projeni dokümante et!" },
+  { "day": 7, "type": "terminal", "content": "Bugünün komutu: git status" },
+  { "day": 8, "type": "text", "content": "Bir GitHub repository oluştur ve ilk commit'i yap!" },
+  { "day": 9, "type": "game", "content": "mini-tic-tac-toe" },
+  { "day": 10, "type": "text", "content": "Bugün bir teknik blog yazısı oku!" },
+  { "day": 11, "type": "text", "content": "Bir yeni JavaScript özelliği öğren (ES6+)" },
+  { "day": 12, "type": "terminal", "content": "Bugünün komutu: npm install" },
+  { "day": 13, "type": "text", "content": "Bir yeni framework veya kütüphane keşfet!" },
+  { "day": 14, "type": "game", "content": "mini-memory" },
+  { "day": 15, "type": "text", "content": "Bir coding challenge tamamla!" },
+  { "day": 16, "type": "text", "content": "Bir fonksiyonel programlama konsepti uygula (map, filter, reduce)" },
+  { "day": 17, "type": "terminal", "content": "Bugünün komutu: docker ps" },
+  { "day": 18, "type": "text", "content": "Bir open source projeye katkıda bulun!" },
+  { "day": 19, "type": "game", "content": "mini-snake" },
+  { "day": 20, "type": "text", "content": "Bugün bir algoritma problemi çöz!" },
+  { "day": 21, "type": "text", "content": "Bir test yaz (unit test veya integration test)" },
+  { "day": 22, "type": "terminal", "content": "Bugünün komutu: npm run build" },
+  { "day": 23, "type": "text", "content": "Bir yeni proje başlat ve ilk adımları at!" },
+  { "day": 24, "type": "text", "content": "🎉 Tebrikler! Advent Calendar'ı tamamladın! 🎉" }
+]
+
