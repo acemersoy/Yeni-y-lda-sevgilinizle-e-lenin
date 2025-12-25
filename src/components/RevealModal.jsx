@@ -90,9 +90,9 @@ const RevealModal = ({ isOpen, onClose, reward }) => {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 bg-gradient-to-r from-rose-500 via-red-500 to-emerald-500 p-5 md:p-6 rounded-t-3xl flex justify-between items-center shadow-lg z-10 border-b-2 border-white/20">
+        <div className="sticky top-0 bg-gradient-to-r from-rose-500 via-pink-500 to-red-500 p-5 md:p-6 rounded-t-3xl flex justify-between items-center shadow-lg z-10 border-b-2 border-white/20">
           <h2 className="text-xl md:text-2xl font-extrabold text-white drop-shadow-lg">
-            {reward.day}. Gün Ödülü! 🎁
+            {reward.day}. Gün Sürprizi! 💕
           </h2>
           <button
             onClick={onClose}
@@ -111,7 +111,7 @@ const RevealModal = ({ isOpen, onClose, reward }) => {
         <div className="p-5 md:p-6 border-t-2 border-gray-200/50 bg-gray-50/50 flex justify-end rounded-b-3xl">
           <button
             onClick={onClose}
-            className="px-8 py-3 bg-gradient-to-r from-rose-500 via-red-500 to-emerald-500 text-white rounded-xl hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold text-base border-2 border-white/30"
+            className="px-8 py-3 bg-gradient-to-r from-rose-500 via-pink-500 to-red-500 text-white rounded-xl hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold text-base border-2 border-white/30"
           >
             Kapat
           </button>
