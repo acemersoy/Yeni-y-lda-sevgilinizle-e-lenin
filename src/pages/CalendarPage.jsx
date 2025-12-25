@@ -26,15 +26,21 @@ const CalendarPage = () => {
   const prevRects = useRef({})
 
   useEffect(() => {
-    // 1. Klasördeki görselleri otomatik bul
-    const modules = import.meta.glob('../assets/puzzle-photos/*.{png,jpg,jpeg,svg,webp}', { eager: true })
-    const images = Object.values(modules).map(mod => mod.default)
-
+    // 1. Klasördeki görselleri otomatik bul (GitHub Pages için güvenli)
     let selectedImage = ''
-    if (images.length > 0) {
-      selectedImage = images[Math.floor(Math.random() * images.length)]
-    } else {
-      // Yedek (Eğer klasör boşsa)
+    try {
+      const modules = import.meta.glob('../assets/puzzle-photos/*.{png,jpg,jpeg,svg,webp}', { eager: true })
+      const images = Object.values(modules).map(mod => mod.default)
+
+      if (images.length > 0) {
+        selectedImage = images[Math.floor(Math.random() * images.length)]
+      } else {
+        // Yedek (Eğer klasör boşsa)
+        selectedImage = 'https://images.unsplash.com/photo-1543589077-47d81606c1bf?q=80&w=2000&auto=format&fit=crop'
+      }
+    } catch (error) {
+      // GitHub Pages'te import.meta.glob çalışmazsa yedek görsel kullan
+      console.warn('Puzzle görselleri yüklenemedi, yedek görsel kullanılıyor:', error)
       selectedImage = 'https://images.unsplash.com/photo-1543589077-47d81606c1bf?q=80&w=2000&auto=format&fit=crop'
     }
     setPuzzleImage(selectedImage)

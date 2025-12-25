@@ -3,8 +3,11 @@ import CalendarPage from './pages/CalendarPage'
 import FinalePage from './pages/FinalePage'
 
 function App() {
+  // GitHub Pages için base path (vite.config.js'deki base ile aynı olmalı)
+  const basename = import.meta.env.BASE_URL || '/Yeni-y-lda-sevgilinizle-e-lenin/'
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<CalendarPage />} />
         <Route path="/finale" element={<FinalePage />} />
