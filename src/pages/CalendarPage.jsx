@@ -202,7 +202,7 @@ const CalendarPage = () => {
         <header className={`text-center mb-12 transition-all duration-500 ${isSolved ? 'opacity-0 h-0 overflow-hidden mb-0' : ''}`}>
           <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 md:p-12 border border-white/20 mb-6">
             <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-pink-500 to-red-500 mb-4 drop-shadow-lg">
-              💕 DOĞAMM SENİ ÇOK SEVİYORUM 💕
+              💕  SENİ ÇOK SEVİYORUM 💕
             </h1>
             <p className="text-gray-700 text-lg md:text-xl font-medium">
               TEKRAR TEKRAR AÇ HARİKA İÇERİKLER VAR ._.! ❤️
